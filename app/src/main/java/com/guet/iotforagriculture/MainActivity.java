@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    Socket socket = new Socket("139.224.28.219", 5000);
+                    Socket socket = new Socket(你要连接的服务器的外网地址, 5000);
                     socket.isConnected();
                     streamReader = new InputStreamReader(socket.getInputStream());
                     reader = new BufferedReader(streamReader);
