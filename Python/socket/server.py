@@ -63,7 +63,7 @@ class RecvThread(threading.Thread):
 
 
 if __name__ == "__main__":
-    Host = '172.17.48.5' #172.17.48.5
+    Host = 你的服务器IP（不同服务器的IP会分内外网，注意）
     Port = 5000
 
     socket = socket.socket()
